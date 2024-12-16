@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Full viewport height */
+    margin: 0;               /* Remove default margins */
+    background-color: #0f0338;
+    text-align: center;      /* Center inline content like text */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center;
+    align-items: center;    /* Center all child elements */
+}
+
+.header_text {
+    font-family: Lato, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px; /* Adjust image size */
+    height: auto;
+    margin: 20px 0; /* Add spacing above and below image */
+    border-radius: 50%; /* Optional: make the image circular */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: 20px; /* Add space between buttons */
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #31169d;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4a2cbf; /* Lighter shade on hover */
+}
